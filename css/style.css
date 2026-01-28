@@ -48,7 +48,7 @@ html, body {
     align-items: center;
 }
 
-/* ðàññòîÿíèå ìåæäó êîëîíêàìè */
+/* Ã°Ã Ã±Ã±Ã²Ã®Ã¿Ã­Ã¨Ã¥ Ã¬Ã¥Ã¦Ã¤Ã³ ÃªÃ®Ã«Ã®Ã­ÃªÃ Ã¬Ã¨ */
 .header .flex > div {
     margin-left: 2%;
 }
@@ -525,7 +525,7 @@ input:checked + .slider:before {
     transform: translateX(16px);
 }
 
-/* ñêðóãëåíèå */
+/* Ã±ÃªÃ°Ã³Ã£Ã«Ã¥Ã­Ã¨Ã¥ */
 .slider.round {
     border-radius: 34px;
 }
@@ -626,7 +626,7 @@ input:checked + .slider:before {
 #user-top #user-info a {
     padding: 10px 0;
     text-decoration: none;
-    color: #000; /* óáèðàåì ñèíèé */
+    color: #000; /* Ã³Ã¡Ã¨Ã°Ã Ã¥Ã¬ Ã±Ã¨Ã­Ã¨Ã© */
     display: block;
     transition: background-color 0.2s;
 }
@@ -697,5 +697,58 @@ input:checked + .slider:before {
 
 .w100{
     width:100%;
+}
+
+
+.auth-header {
+    background-color: #434242;
+}
+
+.auth-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+}
+
+.auth-flex {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.auth-flex > div {
+    margin-right: 2%;
+}
+
+.auth-flex > div:last-child {
+    margin-right: 0;
+}
+
+.auth-col-60 {
+    width: 60%;
+}
+
+.auth-col-40 {
+    width: 40%;
+}
+
+.auth-header h1 {
+    color: #fff;
+    font-size: 18px;
+    margin: 26px 0 0;
+}
+
+.auth-logo {
+    padding: 5px 0;
+}
+
+.auth-logo img {
+    height: 50px;
+}
+
+.auth-align-right {
+    text-align: right;
 }
 
