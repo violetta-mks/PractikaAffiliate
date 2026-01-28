@@ -44,16 +44,16 @@ template: `
         </div>
 
         <div id="left-area" class="w40">
-            <div class="header">
-                <div class="wrapper flex">
-                    <div class="w60">
-                        <h1>Affiliate Sign in</h1>
-                    </div>
-                    <div class="w40 logo al">
-                        <img :src="parent.url+'/app/views/images/logo.svg'" />
-                    </div>
+        <div class="auth-header">
+            <div class="auth-wrapper auth-flex">
+                <div class="auth-col-60">
+                    <h1>Affiliate Sign in</h1>
+                </div>
+                <div class="auth-col-40 auth-logo auth-align-right">
+                    <img :src="parent.url+'/app/views/images/logo.svg'" />
                 </div>
             </div>
+        </div>
 
 
             <div class="form inner-form p20">
@@ -77,3 +77,4 @@ template: `
     </div>
 
 `};
+
